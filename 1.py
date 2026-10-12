@@ -12,7 +12,7 @@ PENALTY=3
 for question,options,correct in questions:
     console.print(question,style="white")
     for option in options:
-        console.print(f"{option}\n",style="red")
+        console.print(f"{option}\n",style="belue")
     user_answer: str= input("your answer (A,B,C,D): ").strip().upper()
     if user_answer == correct:
         total_correct+=1
